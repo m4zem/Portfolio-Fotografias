@@ -1,0 +1,121 @@
+header{
+   background-image: url(./img/capuu.jpg);
+display: flex;
+flex-direction: column;
+align-items: center;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+padding: 210px;
+background-position: center;
+font-size: 10px;
+
+}
+
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px ;
+ background-color: #dcdcdc;
+margin-bottom: 2.5em;
+}
+
+#sobre p{
+    font-size: 30px;
+ max-width: 1000px;
+}
+#paulista{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding-top: 20px;
+   }
+
+
+   #paulista h2{
+  max-width: 1000px;
+ 
+  margin-bottom: 20px;}
+
+   #paulista img{
+    width: 100%;}
+
+ #coffe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+        }
+
+#coffe h2{
+    max-width: 1000px;
+ margin-bottom: 20px; }
+
+#coffe img{
+width: 100%;
+}
+
+#sp{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding-top: 20px;
+   }
+
+
+   #sp h2{
+  max-width: 1000px;
+ 
+  margin-bottom: 20px;}
+
+   #sp img{
+    width: 100%;}
+
+
+#Contato {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+ }
+
+ #Contato p{max-width: 1000px;
+    margin-bottom: 20px;
+    font-size: 24px; 
+}
+
+ @media screen and (min-width: 768px){
+
+    header{
+height: 600px;
+height: 60vh;
+justify-content: center;}
+
+#sobre{
+    height: 250px;
+    height: 30vh;
+    justify-content: center;
+    min-height: 250px;
+    }
+
+    #Contato{
+       flex-direction: row;
+    flex-wrap: wrap;
+justify-content: space-around;
+max-width: 500px;
+margin: 0 auto;
+
+}
+
+#Contato h2, #Contato p{  width: 100%;} 
+     
+}
+            
